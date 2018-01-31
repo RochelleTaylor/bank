@@ -1,0 +1,17 @@
+package cookies;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MasterOrder {
+	private List<CookieOrder>orders = new ArrayList<>();
+
+	public void addOrder(CookieOrder theOrder) {
+		
+		orders.add(theOrder);
+		
+	}
+	public int listSize() {
+		return 1;
+	}
+}

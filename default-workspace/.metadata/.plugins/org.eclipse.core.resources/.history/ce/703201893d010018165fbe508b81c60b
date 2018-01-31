@@ -1,0 +1,33 @@
+
+public class Computer {
+	
+	//instance variables holds instance data
+	private String brand;
+	private String model;
+	private double price;
+	
+	//constructor//building computer object
+	public Computer(String brand, String model) {
+		this.brand = brand;
+		this.model= model;
+		this.price= price;
+	}
+	//Accessor Method//"I do this"
+	public String getBrand() {
+		return brand;
+	}
+	public String getModel() {
+		return model;
+}
+	public double getPrice(){
+		return price;
+}
+	public void setPrice(double price) {
+		this.price = price;
+		
+	}
+		// TODO Auto-generated method stub
+		
+	}
+	
+

@@ -1,0 +1,53 @@
+package shoppingcart;
+
+public class Item {
+
+	String name;
+	double price;
+	int quantity;
+
+	public Item(String name, double price, int quantity) {
+		this.name= name;
+		this.price= price;
+		this.quantity= quantity;
+	}
+
+	public String getPrice() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
+
+
+//package cookies;
+//
+//public class CookieOrder {
+//
+//	private String variety;
+//	private int numBoxes;
+//
+//	public CookieOrder() {
+//
+//	}
+//
+//	public CookieOrder(String variety, int numBoxes) {
+//		this.variety = variety;
+//		this.numBoxes = numBoxes;
+//	}
+//
+//	public String getVariety() {
+//
+//		return variety;
+//	}
+//
+//	public int getNumBoxes() {
+//		
+//		return numBoxes;
+//	}
+//
+//}

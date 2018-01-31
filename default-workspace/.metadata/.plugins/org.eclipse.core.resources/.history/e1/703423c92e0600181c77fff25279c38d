@@ -1,0 +1,13 @@
+package shoppingcart;
+
+import org.junit.Test;
+
+public class ItemTest {
+
+	@Test
+	public void shouldCreateAnItemWithAName() {
+		Item underTest = new Item("Bob", 0.0, 0);
+		String result = underTest.getName();
+		assertEquals("Bob", result);
+	}
+}

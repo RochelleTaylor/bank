@@ -1,0 +1,12 @@
+package cookies;
+
+public class CookieOrder {
+
+	public CookieOrder(String string, int i) {
+		// TODO Auto-generated constructor stub
+	}
+	public CookieOrder() {
+		
+	}
+
+}

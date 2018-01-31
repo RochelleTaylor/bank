@@ -1,0 +1,21 @@
+import java.awt.Menu;
+import java.util.HashMap;
+import java.util.Map;
+
+public class Maps {
+
+	public static void main(String[] args) {
+		
+		Map<Double, String> menuItems = new HashMap<Double, String>();
+
+	      menuItems.put(8.97, "Spaghetti");
+	      menuItems.put(10.98, "Lasagna");
+	      menuItems.put(15.50, "Pizza");
+	      menuItems.put(7.00, "Caesar Salad");
+	      menuItems.put(7.00, "Kale Salad");
+	      
+	      System.out.println("The menu items are" +  menuItems);
+	}
+}
+
+	

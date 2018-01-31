@@ -1,0 +1,12 @@
+INDEX VERSION 1.130+C:\Users\WeCanCodeIT\wcci\default-workspace\.metadata\.plugins\org.eclipse.jdt.core
+1306355414.index
+1285798997.index
+584325969.index
+3269834161.index
+579404460.index
+3305852002.index
+3892289178.index
+2447011590.index
+2580001872.index
+4005594310.index
+123920604.index

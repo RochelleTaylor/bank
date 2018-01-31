@@ -1,0 +1,16 @@
+
+public class Computer {
+	
+	//instance data
+	String brand;
+	
+	//constructor
+	public Computer(String brand, String model) {
+		this.brand = brand;
+	}
+	//Accessor Method
+	public String getBrand() {
+		return brand;
+	}
+}
+

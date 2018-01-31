@@ -1,0 +1,19 @@
+package atm;
+
+public class Atm {
+	
+	private double balance; 
+	
+	public double getBalance() {
+		return balance;
+	}
+	public Atm() {
+		//could have done;
+		//balance = 500.00;
+		//calling the other constructor
+		this(500.00);
+	}
+	public Atm(double amount) {
+		balance= amount;
+	}
+}

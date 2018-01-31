@@ -1,0 +1,19 @@
+
+
+public class ComputerApp {
+	
+	//constructor
+	public static void main(String[]args) {
+	
+	Computer dell = new Computer("Dell", "Latitude");
+	
+	System.out.println(dell.getBrand());
+	System.out.println(dell.getModel());
+	System.out.println(dell.getPrice());
+	dell.setPrice(350.00);
+	System.out.println("Dell went on sale for"  +  dell.getPrice());
+	System.out.println(dell.toString());
+	}
+
+}
+	

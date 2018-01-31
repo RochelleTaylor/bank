@@ -1,0 +1,78 @@
+package shoppingcart;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+
+import org.junit.Test;
+
+public class ItemTest {
+
+	@Test
+	public void shouldInstantiateItem() {
+		Item underTest = new Item("Name", 0, 0);
+
+		assertNotNull(underTest);
+	}
+	@Test
+	public void shouldInstantiateItemObjectWithNamePriceQuantity() {
+		Item underTest= new Item ("Barbie", 19.99,1);
+		String check = underTest .getName();
+		assertNull("Barbie", check);
+	}
+	
+	@Test
+	public void shouldReturnItemWithPrice19(){
+		Item underTest = new Item("Barbie", 19,1);
+		String check = underTest.getPrice();
+		assertEquals(19.99, check);
+	}
+}
+	
+			
+	
+	
+	
+
+
+
+//import static org.junit.Assert.*;
+//
+//import org.junit.Test;
+
+//public class CookieOrderTest {
+//
+//	@Test
+//	public void shouldInstantiateACookieOrderObject() {
+//		CookieOrder underTest = new CookieOrder();
+//
+//		assertNotNull(underTest);
+//	}
+//
+//	@Test
+//	public void shouldInstantiateACookieObjectWithVarietyAndBoxes() {
+//		CookieOrder underTest = new CookieOrder("", 0);
+//
+//		assertNotNull(underTest);
+//	}
+//	
+//	@Test
+//	public void shouldReturnCookieVarietyAsTagalongs() {
+//		CookieOrder underTest = new CookieOrder("Tagalongs", 0);
+//		String check = underTest.getVariety();
+//		
+//		assertEquals("Tagalongs", check);
+//		
+//	}
+//	
+//	@Test
+//	public void shouldReturnNumberOfBoxesAsOne() {
+//		CookieOrder underTest = new CookieOrder("", 1);
+//		int check = underTest.getNumBoxes();
+//		
+//		assertEquals(1, check);
+//	}
+//
+//
+//
+//}

@@ -1,0 +1,41 @@
+
+public class VirtualPet {
+
+	private String hunger;
+
+	private String thirst;
+
+	private String waste;
+
+	private String boredom;
+
+	private String sickness;
+
+	public VirtualPet(String hunger, String thirst, String waste, String boredom, String sickness) {
+		this.hunger = hunger;
+		this.thirst = thirst;
+		this.waste = waste;
+		this.boredom = boredom;
+		this.sickness = sickness;
+	}
+
+	public String getHunger() {
+		return hunger;
+	}
+
+	public String getThirst() {
+		return thirst;
+	}
+
+	public String getWaste() {
+		return waste;
+	}
+
+	public String getBoredom() {
+		return boredom;
+	}
+
+	public String getSickness() {
+		return sickness;
+	}
+}

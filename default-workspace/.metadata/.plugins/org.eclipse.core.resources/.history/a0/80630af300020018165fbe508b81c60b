@@ -1,0 +1,12 @@
+package atm;
+
+public class Atm {
+	
+	public double getBalance() {
+		return 500.00;
+	}
+	public Atm() {
+	}
+	public Atm(double amount) {
+	}
+}

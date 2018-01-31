@@ -1,0 +1,31 @@
+package atm;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+class AtmTest {
+
+	@Test
+	public void shouldHaveDefaultBalance() {
+		// Arrange
+		Atm underTest = new Atm();
+
+		// act
+		double balance = underTest.getBalance();
+
+		// assert
+		Assert.assertEquals(500.00, balance, 0.001);
+
+	}
+
+	@Test
+	public void shouldHaveStartingBalance() {
+
+		Atm underTest = new Atm(2700.00);
+		double balance = underTest.getBalance();
+
+		Assert.assertEquals(2700.00, balance, 0.001);
+
+	}
+
+}

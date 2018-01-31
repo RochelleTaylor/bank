@@ -1,0 +1,12 @@
+
+
+public class ComputerApp {
+	
+	//constructor
+	public class ComputerApp(String brand)
+	
+	Computer dell = new Computer("Dell", "Latitude");
+	
+	System.out.println(dell.brand);
+
+}

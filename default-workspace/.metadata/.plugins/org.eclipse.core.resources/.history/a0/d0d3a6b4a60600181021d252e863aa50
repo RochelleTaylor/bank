@@ -1,0 +1,27 @@
+import java.awt.Menu;
+import java.util.HashMap;
+
+public class Maps {
+
+	private static final String Spaghetti = null;
+	private static final String Lasagna = null;
+	private static final String Pizza = null;
+	private static final String CaeserSalad = null;
+
+	public static void main(String[] args) {
+		
+		System.out.println("Restaurant Menu");
+		
+		HashMap<Integer, String> hmap = new HashMap<Integer, String>();
+		
+		hmap.put((int) 8.97, Spaghetti);
+		hmap.put((int) 10.98, Lasagna);
+		hmap.put((int) 15.50,Pizza);
+		hmap.put((int) 7.00, CaeserSalad);
+		
+		
+		
+		
+	}
+
+}

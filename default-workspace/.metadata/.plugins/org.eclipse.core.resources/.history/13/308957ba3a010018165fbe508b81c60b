@@ -1,0 +1,13 @@
+
+
+public class ComputerApp {
+	
+	//constructor
+	public static void main(String[]args) {
+	
+	Computer dell = new Computer("Dell", "Latitude");
+	
+	System.out.println(dell.getBrand());
+
+}
+}
